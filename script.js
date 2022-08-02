@@ -5,9 +5,13 @@ window.addEventListener('load', () => {
 
 	form.addEventListener('submit', (e) => {
 		e.preventDefault();
-        console.log("Submit form");
 
 		const task = input.value;
+		
+		if(!task){
+			alert("Please write a task");
+			return;
+		}
 
 		const task_el = document.createElement('div');
 		task_el.classList.add('task');

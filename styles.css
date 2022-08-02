@@ -22,15 +22,19 @@ body{
     color:aliceblue;
 }
 
+img{
+    margin-top: 3rem;
+}
+
 header{
     padding: 2rem ;
 }
 
 header h1{
-    font-size:3rem;
-    margin:6.5rem;
+    font-size:7rem;
+    margin-top:3rem;
     font-weight: 800;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 #new-task-form{
@@ -88,7 +92,7 @@ main{
     margin-top:1rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    margin-left: -3rem;
+    margin-left: -5rem;
 }
 
 #tasks .task{
@@ -98,7 +102,7 @@ main{
     padding:0.7rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
-    margin-left: -6rem;
+    margin-left: -10.5rem;
     min-width: 27rem;
 }
 
